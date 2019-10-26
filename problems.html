@@ -1,38 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="JS/updateProblems.js"></script>
 <head>
     <meta charset="UTF-8">
     <title>Problems</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
-<body>
-
-    <table>
+<body onload="fetchApi()">
+    <h1>Coding problems</h1>
+    <table style="margin: auto;">
         <thead>
-            <title>Coding Problems</title>
             <tr>
-                <th>Date</th>
-                <th>Problems</th>
+                <th>Name</th>
+                <th>Link</th>
             </tr>
         </thead>
 
 
         <tbody>
-            <!--09/26/19-->
-            <tr>
-                <td>Thursday, September 26, 2019</td>
-                <td>
-                    <a href="https://leetcode.com/problems/letter-tile-possibilities/" target="_blank">
-                        Letter Tile Possibilities
-                    </a><br>
-                    <a href="https://leetcode.com/problems/roman-to-integer/" target="_blank">
-                        Roman to Integer
-                    </a><br>
-                    <a href="https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/" target="_blank">
-                        Construct Binary Search Tree from Preorder Traversal
-                    </a><br>
-                </td>
-            </tr>
+
         </tbody>
 
     </table>
