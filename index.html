@@ -1,50 +1,103 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:https="http://www.w3.org/1999/xhtml" xmlns:style="http://www.w3.org/1999/xhtml">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Coding Interview Club</title>
-        <link rel="stylesheet" href="CSS/styles.css">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Coding Interview Club</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/styles.css">
 
-    <body>
-        <!--Header Tags-->
-        <h1>Coding Interview<br>Club</h1>
-        <hr>
+  <!-- Fonts Awesome -->
+  <script src="https://kit.fontawesome.com/d33f3a47af.js" crossorigin="anonymous"></script>
 
-        <h3>Description</h3>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-        <!--Paragraph Tags-->
-        <p>The <i>Coding Interview Club</i> is an organization at the University of Texas
-        at El Paso who aims to help Computer Science students to prepare for technical interviews and to improve their
-        programming skills by solving problems according to their respective level.</p>
+</head>
 
-        <h3>Social Media</h3>
-        <a href="https://www.facebook.com/codinginterviewclub/" target="_blank">Facebook<br></a>
-        <a href="https://www.instagram.com/codinginterviewclub/" target="_blank">Instagram<br></a>
-        <a href="https://discordapp.com/invite/3QsUKdk" target="_blank">Discord</a><br>
+<body>
+  <section class="title">
+    <div class="container-fluid">
 
-        <h3><a href="problems.html">Problems</a></h3>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <h3>Officers</h3>
-        <ul>
-            <li><Strong>Yonkou</Strong> - Xavier Martinez</li>
-            <li><Strong>Vice President</Strong> - Jose Rodrígez</li>
-            <li><Strong>Vice President</Strong> - Grecia Navarrete</li>
-            <li><Strong>Webmaster</Strong> - Alex Avila</li>
-            <li><Strong>Treasurer Secretary</Strong> - Joseph Medina</li>
-            <li><Strong>Communications Chair</Strong> - Erick Macik</li>
-            <li><Strong>Logistics Chair</Strong> - Eduardo Todd</li>
-            <li><Strong>External Affairs Chair</Strong> - Giovanna Muñoz</li>
-            <li><Strong>Internal Affairs Chair</Strong> - Angel Ortega</li>
-        </ul>
+        <a class="navbar-brand" href="">Coding Interview Club</a>
 
-        <h3>Coding Problems Websites</h3>
-        <ul>
-            <li><a href="https://leetcode.com/">LeetCode</a></li>
-            <li><a href="https://codingbat.com/java">CodingBat</a></li>
-            <li><a href="https://www.hackerrank.com/">HackerRank</a></li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Problems</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Officers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col">
+          <h1>Practice your interview skills to get the job of your dreams</h1>
+          <a href="https://www.facebook.com/codinginterviewclub/" target="_blank" class="btn btn-outline-light btn-lg" role="button"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/codinginterviewclub/" target="_blank" class="btn btn-outline-light btn-lg" role="button"><i class="fab fa-instagram"></i></a>
+          <a href="https://discordapp.com/invite/3QsUKdk" target="_blank" class="btn btn-outline-light btn-lg" role="button"><i class="fab fa-discord"></i></a>
+          <a href="https://github.com/Coding-Interview-Club" target="_blank" class="btn btn-outline-light btn-lg" role="button"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="col">
+          <img src="images/CIC-logo.png" alt="logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h1>Coding Interview<br>Club</h1>
+  <hr>
+
+  <h3>Description</h3>
+
+  <!--Paragraph Tags-->
+  <p>The <i>Coding Interview Club</i> is an organization at the University of Texas
+    at El Paso who aims to help Computer Science students to prepare for technical interviews and to improve their
+    programming skills by solving problems according to their respective level.</p>
+
+  <h3>Social Media</h3>
+  <a href="https://www.facebook.com/codinginterviewclub/" target="_blank">Facebook<br></a>
+  <a href="https://www.instagram.com/codinginterviewclub/" target="_blank">Instagram<br></a>
+  <a href="https://discordapp.com/invite/3QsUKdk" target="_blank">Discord</a><br>
+
+  <h3><a href="problems.html">Problems</a></h3>
+
+  <h3>Officers</h3>
+  <ul>
+    <li><Strong>Yonkou</Strong> - Xavier Martinez</li>
+    <li><Strong>Vice President</Strong> - Jose Rodrígez</li>
+    <li><Strong>Vice President</Strong> - Grecia Navarrete</li>
+    <li><Strong>Webmaster</Strong> - Alex Avila</li>
+    <li><Strong>Treasurer Secretary</Strong> - Joseph Medina</li>
+    <li><Strong>Communications Chair</Strong> - Erick Macik</li>
+    <li><Strong>Logistics Chair</Strong> - Eduardo Todd</li>
+    <li><Strong>External Affairs Chair</Strong> - Giovanna Muñoz</li>
+    <li><Strong>Internal Affairs Chair</Strong> - Angel Ortega</li>
+  </ul>
+
+  <h3>Coding Problems Websites</h3>
+  <ul>
+    <li><a href="https://leetcode.com/">LeetCode</a></li>
+    <li><a href="https://codingbat.com/java">CodingBat</a></li>
+    <li><a href="https://www.hackerrank.com/">HackerRank</a></li>
+  </ul>
 
 
 </body>
