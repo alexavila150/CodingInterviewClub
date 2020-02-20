@@ -21,6 +21,10 @@ h2 {
   color: #6CA6D9;
 }
 
+.navbar {
+  padding: .5rem 1rem 3rem 0;
+}
+
 .navbar-brand{
   font-size: 2.5rem;
 }
